@@ -1,0 +1,11 @@
+{
+    "name": "MilitaryUpgrade",
+    "version": "0.0.1",
+    "title": "Military Upgrade",
+    "author": "SomeLoserThatCantPickOriginalUsernames, robertgamer4, nicolas724",
+    "contact": "",
+    "homepage": "https://github.com/nicolas724/factorio-mod",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "Adds higher tier weapons and advanced materials."
+}
