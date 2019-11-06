@@ -4,7 +4,7 @@
 data:extend(
 {
 	{
-	    type = "gun",
+      type = "gun",
 	    name = "sniper-rifle",
 	    icon = "__MilitaryUpgrade__/graphics/icons/sniper-rifle.png",
 	    icon_size = 32,
@@ -22,7 +22,12 @@ data:extend(
 			range = 55,
 			damage_modifier = 12,
 			ammo_consumption_modifier = 5,
-			sound = make_heavy_gunshot_sounds()
+			sound = 
+            {
+                filename = "__MilitaryUpgrade__/sound/sniper-rifle.ogg",
+                volume = 0.5,
+                audible_distance_modifier = 1.5
+            }
 		}
 	}
 }
